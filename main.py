@@ -40,7 +40,7 @@ def contact():
 
 @app.route("/about")
 def about():
-    return render_template('about.html',data=information)
+    return render_template('about.html',data=information,ResumeLink="https://drive.google.com/file/d/1ZZSUPFtIZunlVjx5yFA5DM0rIBv3OQUo/view")
 
 @app.route("/works")
 def work():
